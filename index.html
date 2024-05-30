@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crumb Covenant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f3e9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d3c6b3;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #555;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .menu, .contact {
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        h1, h2 {
+            color: #cc7f77;
+        }
+        .menu-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact label {
+            margin: 10px 0 5px;
+        }
+        .contact input, .contact textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #cc7f77;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Crumb Covenant</h1>
+        <p>The Bakery at Elk's - where we bake/craft items to fill your belly with love!</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Crumb Covenant, the Bakery at Elk's! Our mission is to bake and craft delightful items that fill your belly with love. Whether you're craving our signature chocolate chip cookies or our heavenly cinnamon rolls, we have something special to offer everyone.</p>
+    </section>
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Chocolate Chip Cookies</h3>
+            <p>Our classic chocolate chip cookies are made with the finest ingredients and a whole lot of love. Perfectly chewy with just the right amount of chocolatey goodness!</p>
+        </div>
+        <div class="menu-item">
+            <h3>Cinnamon Rolls</h3>
+            <p>Indulge in our soft and fluffy cinnamon rolls, generously topped with a rich cream cheese frosting. A true delight for your taste buds!</p>
+        </div>
+        <!-- Add more menu items here -->
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
